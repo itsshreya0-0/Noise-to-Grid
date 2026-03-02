@@ -14,8 +14,13 @@ The core problem is:
 How can cities transform high-decibel urban noise zones from passive environmental liabilities into active, intelligently managed micro-energy assets that support smart infrastructure?
 
 ## Solution
-AI-based predictive harvesting system that converts high-noise zones into micro-power for EV station auxiliary loads.
+Noise-to-Grid is an AI-driven smart-city system that transforms high-decibel urban zones into intelligent micro-energy hubs.
 
+Our solution deploys piezoelectric sensor nodes in predictable noise hotspots such as highways, airports, and construction corridors. These nodes capture acoustic and vibrational energy while continuously monitoring sound intensity.
+
+Using machine learning, the system predicts peak noise windows and optimizes energy harvesting in real time. The harvested micro-energy is then directed to support auxiliary smart-city infrastructure such as EV charging station lighting, traffic sensors, and safety systems.
+
+Instead of treating noise purely as pollution, Noise-to-Grid converts it into a managed, sustainable urban resource — turning environmental stress into functional smart-city power.
 ## Architecture
 ESP32 → FastAPI → ML Model → Streamlit Dashboard
 
