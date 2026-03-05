@@ -29,32 +29,9 @@ ESP32 → FastAPI → ML Model → Streamlit Dashboard
 2. Start API
 3. Run dashboard
 
-## Structure
-Noise-to-Grid/
-│
-├── backend/
-│   ├── main.py              # FastAPI server with prediction API
-│   ├── model.pkl            # Trained ML model for noise peak prediction
-│   └── requirements.txt     # Backend dependencies
-│
-├── dashboard/
-│   └── streamlit_app.py     # Streamlit dashboard with graphs and city map
-│
-├── hardware/
-│   └── sensor_design.md     # Piezo sensor + amplifier hardware explanation
-│
-├── data/
-│   └── sample_noise_data.csv  # Sample dataset used for testing
-│
-├── images/
-│   ├── dashboard.png        # Screenshot of dashboard
-│   └── architecture.png     # System architecture diagram
-│
-├── README.md                # Project documentation
-└── requirements.txt         # Overall project dependencies
 
 ## Description
-## Project Structure
+Project Structure
 
 The project consists of three main modules:
 
